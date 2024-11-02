@@ -23,6 +23,9 @@
 
   "*.{html,css,js}": [
     "prettier --write"
+  ],
+  "*.{js}": [
+    "eslint --fix"
   ]
 }
 }
