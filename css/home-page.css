@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Inter:wght@100;200&display=swap');
+
+.banner-container {
+    background-color: rgba(57, 153, 24, 0.75);
+    font-family: 'Inter', sans-serif;
+    border-radius: 15px;
+
+    div {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    p:first-child {
+        font-weight: 700;
+        font-size: clamp(1rem, 1vw + 1rem, 2rem);
+    }
+}
+
+.banner-supporting-text {
+    font-size: clamp(1rem, 1vw + 1rem, 2rem);
+    font-weight: 400;
+}
+
+.banner-button {
+    width: fit-content;
+}
