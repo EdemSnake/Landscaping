@@ -17,10 +17,22 @@
 }
 
 .banner-supporting-text {
-    font-size: clamp(1rem, 1vw + 1rem, 2rem);
+    font-size: clamp(1rem, 1vw + 1rem, 1.75rem);
     font-weight: 400;
 }
 
 .banner-button {
     width: fit-content;
+}
+
+@media screen and (max-width: 576px) {
+    .banner-container {
+        padding: 2rem !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .banner-container {
+        margin-left: 5rem;
+    }
 }
