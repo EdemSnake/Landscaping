@@ -1,29 +1,38 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+:root {
+  --primary-color: #399918;
+  --secondary-color: #fff;
+  --second-bg-color: #ecffe6;
 }
 
 .bg-success {
-    background-color: #399918 !important;
+  background-color: #399918 !important;
 }
 
 #company-logo {
-    height: 3rem;
+  height: 3rem;
 }
 
 .hero {
-    background-image: url('./assets/images/home-page/homepage.jpg');
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  background-image: url("./assets/images/home-page/homepage.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+
+ 
