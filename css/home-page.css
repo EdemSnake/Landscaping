@@ -25,6 +25,67 @@
     width: fit-content;
 }
 
+.company-section {
+    background-color: var(--second-bg-color);
+}
+
+/*-----------------IMAGE SLIDER----------------------*/
+.slide {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slide::before {
+    left: 0;
+}
+
+.slide::after {
+    right: 0;
+    transform: rotateZ(180deg);
+}
+
+.slide__container {
+    display: flex;
+    width: calc(250px * 22);
+    animation: slide 30s linear infinite;
+}
+
+.slide__image {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+.slide__image img {
+    width: auto;
+    height: 75px;
+    transition: transform 5s;
+}
+
+.slide__image img:hover {
+    transform: translateZ(20px);
+
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 11));
+    }
+}
+
 @media screen and (max-width: 576px) {
     .banner-container {
         padding: 2rem !important;
