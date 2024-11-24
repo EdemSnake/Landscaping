@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/pages/contact/contact.css" />
+    <link rel="stylesheet" href="/components/footer/footer.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/logos/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-success navbar-dark shadow py-3 fixed-top"
+    >
+      <div class="container">
+        <img
+          src="/assets/logos/company-logo.png"
+          alt="Dublin Scapes company logo"
+          id="company-logo"
+        />
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#"
+                ><button type="button" class="btn btn-light p-2 mx-4 primary">
+                  Contact
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main-content-contact">
+      <div class="banner">
+        <div class="banner-main">
+          <h1>Get In Touch!</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            finibus finibus tellus et sollicitudin. Proin non dui ligula. Mauris
+            et interdum urna. Aliquam fringilla dolor ut ullamcorper vulputate.
+            Suspendisse arcu purus, tristique id convallis eget, placerat
+            facilisis risus.
+          </p>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="contact-middle">
+          <!-- <div class="contact-picture-plant"> -->
+          <img src="../../assets/images/contact-page/plant.png" alt="plant" />
+          <!-- </div> -->
+
+          <div class="col-lg-8 col-md-10">
+            <div class="contact-form">
+              <h3>Send us an inquiry/feedback</h3>
+              <p>We try to respond within 2 working days</p>
+              <form>
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      placeholder="Value"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      placeholder="Value"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <select
+                    id="dropdown-county"
+                    class="form-select mb-3"
+                    aria-label=".form-select-lg example"
+                    aria-placeholder="Select a county"
+                  ></select>
+                </div>
+                <div class="mb-3">
+                  <label for="feedback" class="form-label"
+                    >Inquiry / Feedback</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="feedback"
+                    rows="3"
+                    required
+                  ></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="terms"
+                    required
+                    onclick="toggleCheckbox()"
+                  />
+                  <label class="form-check-label" for="terms"
+                    >I accept the terms</label
+                  >
+                </div>
+                <button
+                  id="submit"
+                  type="submit"
+                  class="btn btn-custom w-100"
+                  style="background-color: #399918; color: white"
+                  disabled
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container contact-section">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact-card">
+              <div class="contact-icon mb-3">
+                <img
+                  src="../../assets/images/contact-page/location.png"
+                  alt="Profile Image"
+                  class="contact-icons"
+                />
+              </div>
+              <h5>Location</h5>
+              <p>
+                <strong>Main Office:</strong> 123 Street, 456 Avenue, Dublin,
+                A12 B345, Ireland
+              </p>
+              <p>
+                <strong>North Dublin Branch:</strong> 789 Street, 987 Avenue,
+                Co. Dublin, A34 B996, Ireland
+              </p>
+              <p>
+                <strong>South Dublin Branch:</strong> 345 Street, 543 Avenue,
+                Co. Dublin, A45 B678, Ireland
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-card">
+              <div class="contact-icon mb-3">
+                <img
+                  src="../../assets/images/contact-page/phone.png"
+                  alt="Profile Image"
+                  class="contact-icons"
+                />
+              </div>
+              <h5>Phone</h5>
+              <p>
+                <strong>Main Office:</strong><br />
+                Tel: 01-23456789 <br />
+                Fax: 0123456789
+              </p>
+              <p>
+                <strong>North Dublin Branch:</strong><br />
+                Tel: 01-76543210 <br />
+                Fax: 756448489
+              </p>
+              <p>
+                <strong>South Dublin Branch:</strong><br />
+                Tel: 01-68754929 <br />
+                Fax: 547732444
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-card working-hours">
+              <div class="contact-icon mb-3">
+                <img
+                  src="../../assets/images/contact-page/clock.png"
+                  alt="Profile Image"
+                  class="contact-icons"
+                />
+              </div>
+              <h5>Hours</h5>
+              <p><strong>All Branches:</strong></p>
+              <p>Monday: 09:00 AM - 05:00 PM</p>
+              <p>Tuesday: 09:00 AM - 05:00 PM</p>
+              <p>Wednesday: 09:00 AM - 05:00 PM</p>
+              <p>Thursday: 09:00 AM - 05:00 PM</p>
+              <p>Friday: 09:00 AM - 05:00 PM</p>
+              <p>Saturday: 09:00 AM - 03:00 PM</p>
+              <p>Sunday: 10:00 AM - 01:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="add-contact-main">
+          <img
+            src="../../assets/images/contact-page/phone_blob.png"
+            alt="Profile Image"
+            class="add-photo"
+          />
+          <div class="additional-contacts">
+            <h5>Additional Contacts</h5>
+            <p><strong>Press Inquiries:</strong> dublinscapes@gmail.com</p>
+            <p>
+              <strong>Influencer Inquiries:</strong>
+              dublinscapes-influencer@gmail.com
+            </p>
+            <p>
+              <strong>Social Brand Inquiries:</strong>
+              dublinscapes-brand@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer"
+        id="footer"
+        style="position: fixed; bottom: 0; left: 0; width: 100%"
+      ></div>
+    </div>
+    <script src="/components/footer/footer.js"></script>
+    <script src="/pages/contact/contact.js"></script>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .footer-content {
@@ -113,5 +113,11 @@
 @media (max-width: 574px) {
   .footer-links {
     grid-template-columns: 1fr;
+    font-size: 0.9em;
+  }
+
+  .footer-logo img.logo {
+    height: 55px;
+    margin-bottom: 5px;
   }
 }

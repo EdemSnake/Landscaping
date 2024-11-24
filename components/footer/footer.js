@@ -5,8 +5,8 @@ class Footer {
             <footer class="footer">
                 <div class="footer-content">
                     <div class="footer-logo">
-                        <img src="./assets/logos/logo.svg" alt="Dublin Scapes Logo" class="logo" />
-                        <img src="./assets/logos/name.svg" alt="Dublin Scapes Logo" class="logo" />
+                        <img src="/assets/logos/logo.svg" alt="Dublin Scapes Logo" class="logo" />
+                        <img src="/assets/logos/name.svg" alt="Dublin Scapes Logo" class="logo" />
                     </div>
 
                     <div class="footer-main">
@@ -20,11 +20,11 @@ class Footer {
                         </div>
                         <div class="footer-divider"></div>
                         <div class="footer-social">
-                            <div class="footer-icons"><img src="./assets/icons/facebook.svg" alt="Facebook"></div>
-                            <div class="footer-icons"><img src="./assets/icons/tiktok.svg" alt="TikTok"></div>
-                            <div class="footer-icons"><img src="./assets/icons/instagram.svg" alt="Instagram"></div>
-                            <div class="footer-icons"><img src="./assets/icons/twitter.svg" alt="Twitter"></div>
-                            <div class="footer-icons"><img src="./assets/icons/whatsup.svg" alt="WhatsApp"></div>
+                            <div class="footer-icons"><img src="/assets/icons/facebook.svg" alt="Facebook"></div>
+                            <div class="footer-icons"><img src="/assets/icons/tiktok.svg" alt="TikTok"></div>
+                            <div class="footer-icons"><img src="/assets/icons/instagram.svg" alt="Instagram"></div>
+                            <div class="footer-icons"><img src="/assets/icons/twitter.svg" alt="Twitter"></div>
+                            <div class="footer-icons"><img src="/assets/icons/whatsup.svg" alt="WhatsApp"></div>
                         </div>
                     </div>
                 </div>
