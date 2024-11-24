@@ -1,0 +1,136 @@
+.main-content-contact {
+}
+
+.banner {
+  width: 100%;
+  height: 704px;
+  background-image: url("../../assets/images/contact-page/house.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-main {
+  text-align: center;
+  /* width: 848px; */
+  margin: 0 10rem;
+  padding: 20px 80px;
+  background-color: #ecffe6bf;
+  border-radius: 10px;
+}
+
+.banner-main p {
+  font-size: 20px;
+  line-heigth: 28px;
+  font-weigth: 400px;
+}
+
+.banner-main h1 {
+  color: var(--primary-color);
+  padding: 10px 0;
+}
+
+.contact-picture-plant img {
+  margin-right: 100px;
+}
+
+.contact-middle {
+  display: flex;
+}
+
+.contact-section {
+  padding: 50px 0;
+}
+
+.contact-card {
+  text-align: center;
+}
+
+.contact-card h5 {
+  color: var(--primary-color);
+}
+
+.contact-icons {
+  width: 48px;
+  color: var(--primary-color);
+}
+
+.add-contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-photo {
+  width: 387px;
+}
+
+.additional-contacts {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.additional-contacts h5 {
+  color: var(--primary-color);
+}
+
+@media (max-width: 1024px) {
+  .banner-main {
+    margin: 0 5rem;
+  }
+  .contact-middle {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-picture-plant img {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 550px;
+  }
+
+  .banner-main {
+    padding: 15px;
+  }
+
+  .contact-middle img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 574px) {
+  .add-contact-main {
+    margin-bottom: 80px;
+  }
+  .banner {
+    height: 450px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select {
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+  }
+
+  .contact-card h5,
+  .additional-contacts h5 {
+    font-size: 16px;
+  }
+
+  .contact-middle img {
+    width: 285px;
+  }
+}

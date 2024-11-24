@@ -27,5 +27,5 @@
     "*.{html,css,scss}": [
       "prettier --write"
     ]
-}
+  }
 }
