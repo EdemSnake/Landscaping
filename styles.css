@@ -35,6 +35,13 @@ body {
   background-position: center center;
 }
 
+.green-text {
+    color: var(--primary-color);
+}
+
+.bg-color {
+    background-color: var(--second-bg-color);
+}
 
 .services-icon {
     width: 50px;
