@@ -1,0 +1,18 @@
+.background-section {
+    background-color: #1d1b44;
+    background-image: url('../assets/images/gallery/pexels-marina-1852469-3620913.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0 0;
+    margin-top: 80px;
+}
+.main-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.image-container img {
+    width: 100%;
+    /*max-width: 300px;*/
+    margin: 0 auto;
+}
