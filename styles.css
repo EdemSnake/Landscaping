@@ -35,6 +35,9 @@ body {
   background-position: center center;
 }
 
+.bg-color {
+    background-color: var(--second-bg-color);
+}
 
 .services-icon {
     width: 50px;
