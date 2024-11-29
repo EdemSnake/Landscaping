@@ -16,7 +16,7 @@ class Footer {
                             <a href="#">Testimonials</a>
                             <a href="#">About Us</a>
                             <a href="./pages/services/services.html">Our Services</a>
-                            <a href="#">Galleries</a>
+                            <a href="./pages/gallery/gallery.html">Galleries</a>
                         </div>
                         <div class="footer-divider"></div>
                         <div class="footer-social">
