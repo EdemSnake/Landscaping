@@ -61,6 +61,13 @@
   text-align: center;
 }
 
+.image-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .image-block img {
   width: 333px;
   height: auto;
@@ -74,7 +81,7 @@
 }
 
 .faq-container {
-  width: 600px;
+  width: 60%;
 }
 
 .faq-item {
