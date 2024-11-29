@@ -36,21 +36,21 @@ body {
 }
 
 .green-text {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .bg-color {
-    background-color: var(--second-bg-color);
+  background-color: var(--second-bg-color);
 }
 
 .services-icon {
-    width: 50px;
-    filter: brightness(0) saturate(100%) invert(44%) sepia(60%) saturate(844%) hue-rotate(64deg) brightness(94%) contrast(85%);
+  width: 50px;
+  filter: brightness(0) saturate(100%) invert(44%) sepia(60%) saturate(844%)
+    hue-rotate(64deg) brightness(94%) contrast(85%);
 }
 
 .our-services-container {
-    h3 {
-        color: var(--primary-color);
-    }
+  h3 {
+    color: var(--primary-color);
+  }
 }
-
