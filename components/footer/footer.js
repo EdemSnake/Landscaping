@@ -12,10 +12,10 @@ class Footer {
                     <div class="footer-main">
                         <div class="footer-links">
                             <a href="#">Our Mission</a>
-                            <a href="#">How It Works</a>
-                            <a href="#">Meet Our Team</a>
+                            <a href="./pages/contact/contact.html">Contact</a>
+                            <a href="#">Testimonials</a>
                             <a href="#">About Us</a>
-                            <a href="#">Our Services</a>
+                            <a href="./pages/services/services.html">Our Services</a>
                             <a href="#">Galleries</a>
                         </div>
                         <div class="footer-divider"></div>
