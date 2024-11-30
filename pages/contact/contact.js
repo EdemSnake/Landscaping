@@ -8,6 +8,11 @@ const submitButton = document.querySelector("#submit");
 content.style.marginTop = `${navbar.offsetHeight}px`;
 // content.style.marginBottom = `${foot.offsetHeight}px`;
 
+const form = document.querySelector("#contact-form");
+
+const modal = document.querySelector(".modal-respond");
+const closeModal = document.querySelector("#close-modal");
+
 const counties = [
   "Antrim",
   "Armagh",
@@ -59,3 +64,13 @@ counties.forEach((county) => {
 function toggleCheckbox() {
   submitButton.disabled = !checkbox.checked;
 }
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  modal.style.display = "flex";
+});
+
+closeModal.addEventListener("click", (event) => {
+  event.preventDefault();
+  modal.style.display = "none";
+});
