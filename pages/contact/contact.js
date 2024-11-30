@@ -1,12 +1,12 @@
 const navbar = document.querySelector(".navbar");
 const content = document.querySelector(".main-content-contact");
-const foot = document.querySelector(".footer");
+// const foot = document.querySelector(".footer");
 
 const checkbox = document.querySelector("#terms");
 const submitButton = document.querySelector("#submit");
 
 content.style.marginTop = `${navbar.offsetHeight}px`;
-content.style.marginBottom = `${foot.offsetHeight}px`;
+// content.style.marginBottom = `${foot.offsetHeight}px`;
 
 const counties = [
   "Antrim",

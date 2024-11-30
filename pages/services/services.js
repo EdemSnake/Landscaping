@@ -1,9 +1,9 @@
 const navbar = document.querySelector(".navbar");
 const content = document.querySelector(".main-content-services");
-const foot = document.querySelector(".footer");
+// const foot = document.querySelector(".footer");
 
 content.style.marginTop = `${navbar.offsetHeight}px`;
-content.style.marginBottom = `${foot.offsetHeight}px`;
+// content.style.marginBottom = `${foot.offsetHeight}px`;
 
 const faqData = [
   {
