@@ -54,3 +54,7 @@ body {
     color: var(--primary-color);
   }
 }
+
+.navbar-nav .nav-link.active {
+  color: yellow !important;
+}
