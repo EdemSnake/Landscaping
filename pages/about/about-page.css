@@ -1,0 +1,135 @@
+/*        test page test 2 css          */
+
+.test-cols-green{
+    background-color: #ecffe6;
+    border: 3px solid #399918;
+    place-items: center;
+    
+    }
+    .test-cols-white{
+    background-color: white;
+      
+    }
+    #greenBox{
+      background-color: #399918;
+      font-size: 30px;
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    
+    h1 {
+      font-size: 72px;
+      font-family: sans-serif;
+      color: #399918;
+    }
+    
+    
+    /*        test page test css          */
+    .test-container {
+        display: flex;
+        grid-gap: 10px;
+        grid-template-columns: repeat(4, 250px);
+        grid-template-rows: repeat(1, 250px);
+      }
+      .test-container > div {
+        padding: 10px;
+        background-color: grey;
+        border: 3px solid grey;
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+      }
+    
+      .test-container > div {
+        font-family: sans-serif;
+        font-size: 16px;
+        
+        color: white;
+        text-align: center;
+      }
+    
+      h1 {
+        font-size: 72px;
+        font-family: sans-serif;
+        color: #399918;
+      }
+    
+    
+    
+    /*        about page test css          */
+    .about-container{
+        display: flex;
+        background-color: white;
+        color: #399918;
+        margin: 5px;
+        width: 100%;
+        font-size: 14pt;
+        
+    }
+    .image-container{
+        width: 49%;
+        
+    }
+    .center-image{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 49%;
+    
+    }
+    .text-container{
+        width: 49%;
+    }
+    .about-team-container{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        color: #399918;
+    }
+    
+    .about-column {
+        float: left;
+        width: 16.6%;
+        margin-bottom: 16px;
+        
+        padding: 0 8px;
+      }
+      @media screen and (max-width: 650px) {
+        .about-column {
+          width: 100%;
+          display: block;
+        }
+      }
+      .about-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+      .meet-container {
+        padding: 0 16px;
+      }
+      .meet-container::after, .about-row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .meet-title {
+        color: #399918;
+      }
+      
+      .about-button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #399918;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }
