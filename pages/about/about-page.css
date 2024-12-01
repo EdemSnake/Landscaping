@@ -1,13 +1,20 @@
 /*        test page test 2 css          */
 
+.test-head{
+    display: flex;
+}
+
 .test-cols-green{
     background-color: #ecffe6;
-    border: 3px solid #399918;
+    border: 5px solid #399918;
     place-items: center;
+    text-align: center;
+    justify-content: center;
     
     }
     .test-cols-white{
     background-color: white;
+    border: 1px;
       
     }
     #greenBox{
@@ -17,38 +24,30 @@
       color: white;
       text-align: center;
       padding: 10px;
+      display: flex;
     }
     
     h1 {
-      font-size: 72px;
+      font-size: 72pt;
       font-family: sans-serif;
       color: #399918;
     }
     
     
     /*        test page test css          */
-    .test-container {
-        display: flex;
-        grid-gap: 10px;
-        grid-template-columns: repeat(4, 250px);
-        grid-template-rows: repeat(1, 250px);
-      }
-      .test-container > div {
-        padding: 10px;
-        background-color: grey;
-        border: 3px solid grey;
-        border-radius: 10px;
-        display: grid;
-        place-items: center;
-      }
-    
-      .test-container > div {
-        font-family: sans-serif;
-        font-size: 16px;
-        
+
+    .testimonials{
+        background-color: gray;
         color: white;
+        font-size: 12pt;
+        border-radius: 10px;
         text-align: center;
-      }
+        height: 250px;
+    }
+ 
+
+    
+
     
       h1 {
         font-size: 72px;
@@ -60,16 +59,17 @@
     
     /*        about page test css          */
     .about-container{
-        display: flex;
+    
         background-color: white;
         color: #399918;
         margin: 5px;
-        width: 100%;
+        /*width: 100%;*/
         font-size: 14pt;
         
     }
     .image-container{
-        width: 49%;
+        
+        text-align: center;
         
     }
     .center-image{
