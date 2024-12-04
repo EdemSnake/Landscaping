@@ -19,3 +19,47 @@
     width: 100%;
     margin: 0 auto;
 }
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -100%; /* Hidden below the image initially */
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    transition: bottom 0.3s ease-in-out;
+}
+
+.overlay-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.image-container:hover .overlay {
+    bottom: 0; /* Moves up to cover the image on hover */
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.image-container:hover .overlay-text {
+    transform: translateY(0);
+}
+
+.overlay-text {
+    transform: translateY(20px); /* Slight downward offset for animation effect */
+    transition: transform 0.3s ease-in-out;
+}
