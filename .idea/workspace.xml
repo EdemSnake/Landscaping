@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2aac320a-d3e9-4b18-ba1d-9fcd8e37006e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/customer-testimonials/pexels-brett-sayles-5144485.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/customer-testimonials/pexels-brett-sayles-5144485.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/customer-testimonials/pexels-frostroomhead-15624381.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/customer-testimonials/pexels-frostroomhead-15624381.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/customer-testimonials/pexels-nextvoyage-3075352.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/customer-testimonials/pexels-nextvoyage-3075352.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/customer-testimonials/pexels-simaomoreira-10859646.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/customer-testimonials/pexels-simaomoreira-10859646.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/about-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/about-page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
