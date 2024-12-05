@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2aac320a-d3e9-4b18-ba1d-9fcd8e37006e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "about-page-v2",
+    "git-widget-placeholder": "testimonials2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/NCI/Web Design & Client Side Scripting/Team 7 - Final Project/Landscaping",
     "node.js.detected.package.eslint": "true",
