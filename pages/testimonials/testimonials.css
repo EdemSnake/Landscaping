@@ -1,0 +1,42 @@
+.testimonial-box,
+.plant-box {
+    width: 360px;
+    height: 360px;
+}
+
+.plant-box {
+    background-color: #ecffe6;
+    display: grid;
+    place-items: center;
+    border: 5px solid #399918;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.testimonial-box {
+    padding: 1rem;
+    display: grid;
+    place-content: center;
+
+    .customer-name {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .customer-business {
+        font-style: italic;
+        margin-bottom: 0;
+    }
+
+    .customer-statement {
+        font-style: italic;
+    }
+
+    .testimonial-stars {
+        width: 100px;
+    }
+}

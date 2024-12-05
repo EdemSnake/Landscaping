@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #399918;
+  --secondary-color: #fff;
+  --second-bg-color: #ecffe6;
+}
+
 *,
 *::before,
 *::after {
@@ -54,6 +60,15 @@ body {
     color: var(--primary-color);
   }
 }
+
+
+
+
+
+
+
+
+
 
 .navbar-nav .nav-link.active {
   color: yellow !important;
