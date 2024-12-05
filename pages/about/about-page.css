@@ -1,12 +1,18 @@
 /*        test page         */
-.test-cont {
+
+.test-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*.test-cont {
   justify-content: space-evenly;
   flex-direction: column;
-}
+}*/
 .test-grey {
   padding-bottom: 180px;
 }
 .img-heads {
+  display: block;
   object-fit: contain;
 }
 
