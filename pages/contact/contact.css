@@ -155,6 +155,8 @@
 @media (max-width: 574px) {
   .add-contact-main {
     margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
   }
   .banner {
     height: 450px;
