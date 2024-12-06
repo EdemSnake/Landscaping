@@ -19,12 +19,6 @@ body {
   overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
-:root {
-  --primary-color: #399918;
-  --secondary-color: #fff;
-  --second-bg-color: #ecffe6;
-}
-
 .bg-success {
   background-color: #24640d !important;
 }
@@ -60,15 +54,6 @@ body {
     color: var(--primary-color);
   }
 }
-
-
-
-
-
-
-
-
-
 
 .navbar-nav .nav-link.active {
   color: yellow !important;
