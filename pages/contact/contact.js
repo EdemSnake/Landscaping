@@ -1,12 +1,10 @@
 const navbar = document.querySelector(".navbar");
 const content = document.querySelector(".main-content-contact");
-// const foot = document.querySelector(".footer");
 
 const checkbox = document.querySelector("#terms");
 const submitButton = document.querySelector("#submit");
 
 content.style.marginTop = `${navbar.offsetHeight}px`;
-// content.style.marginBottom = `${foot.offsetHeight}px`;
 
 const form = document.querySelector("#contact-form");
 
@@ -14,6 +12,7 @@ const modal = document.querySelector(".modal-respond");
 const closeModal = document.querySelector("#close-modal");
 
 const counties = [
+  "Dublin",
   "Antrim",
   "Armagh",
   "Carlow",
@@ -23,7 +22,6 @@ const counties = [
   "Derry",
   "Donegal",
   "Down",
-  "Dublin",
   "Fermanagh",
   "Galway",
   "Kerry",
@@ -67,7 +65,10 @@ function toggleCheckbox() {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  modal.style.display = "flex";
+  form.reset();
+  setTimeout(() => {
+    modal.style.display = "flex";
+  }, 250);
 });
 
 closeModal.addEventListener("click", (event) => {
