@@ -9,6 +9,7 @@ content.style.marginTop = `${navbar.offsetHeight}px`;
 const form = document.querySelector("#contact-form");
 
 const modal = document.querySelector(".modal-respond");
+const modalContent = document.querySelector("#person-firstname");
 const closeModal = document.querySelector("#close-modal");
 
 const counties = [
@@ -65,10 +66,17 @@ function toggleCheckbox() {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
+  const firstName = document.querySelector("#firstName").value;
+
+  modalContent.innerHTML = `
+    Thank you very much,<span class="highlight">${firstName}</span>!
+  `;
+
   form.reset();
   setTimeout(() => {
     modal.style.display = "flex";
   }, 250);
+  form.reset();
 });
 
 closeModal.addEventListener("click", (event) => {

@@ -20,7 +20,7 @@
 }
 
 .banner-main p {
-  font-size: 20px
+  font-size: 20px;
 }
 
 .banner-main h1 {
@@ -122,6 +122,11 @@
 }
 .modal-respond-button:hover {
   background-color: #2f7c13;
+}
+
+.highlight {
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 @media (max-width: 1024px) {
