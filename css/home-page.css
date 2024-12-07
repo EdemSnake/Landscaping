@@ -4,16 +4,16 @@
   background-color: rgba(57, 153, 24, 0.75);
   font-family: "Inter", sans-serif;
   border-radius: 15px;
+}
 
-  div {
-    display: flex;
-    gap: 1.5rem;
-  }
+.banner-container div {
+  display: flex;
+  gap: 1.5rem;
+}
 
-  p:first-child {
-    font-weight: 700;
-    font-size: clamp(1rem, 1vw + 1rem, 2rem);
-  }
+.banner-container p:first-child {
+  font-weight: 700;
+  font-size: clamp(1rem, 1vw + 1rem, 2rem);
 }
 
 .banner-supporting-text {
