@@ -49,10 +49,8 @@ body {
     hue-rotate(64deg) brightness(94%) contrast(85%);
 }
 
-.our-services-container {
-  h3 {
+.our-services-container h3 {
     color: var(--primary-color);
-  }
 }
 
 .navbar-nav .nav-link.active {
