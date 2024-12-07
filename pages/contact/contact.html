@@ -16,7 +16,7 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="preload"
-      as = "style"
+      as="style"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
@@ -132,6 +132,10 @@
                       id="firstName"
                       placeholder="Your first name"
                       required
+                      minlength="2"
+                      maxlength="50"
+                      pattern="[A-Za-z]+"
+                      title="First name should only contain letters and be between 2 and 50 characters."
                     />
                   </div>
                   <div class="col-md-6">
@@ -142,16 +146,40 @@
                       id="lastName"
                       placeholder="Your last name"
                       required
+                      minlength="2"
+                      maxlength="50"
+                      pattern="[A-Za-z]+"
+                      title="Last name should only contain letters and be between 2 and 50 characters."
                     />
                   </div>
                 </div>
-                <div class="mb-3">
-                  <select
-                    id="dropdown-county"
-                    class="form-select mb-3"
-                    aria-label=".form-select-lg example"
-                  ></select>
+
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label for="dropdown-county" class="form-label"
+                      >County</label
+                    >
+                    <select
+                      id="dropdown-county"
+                      class="form-select"
+                      aria-label=".form-select-lg example"
+                      aria-placeholder="Select a county"
+                      required
+                    ></select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Your email address"
+                      required
+                      title="Please enter a valid email address."
+                    />
+                  </div>
                 </div>
+
                 <div class="mb-3">
                   <label for="feedback" class="form-label"
                     >Inquiry / Feedback</label
@@ -188,7 +216,7 @@
             </div>
             <div class="modal-respond">
               <div class="modal-respond-content">
-                <h3>Thank you very much for your feedback or message!</h3>
+                <h3 id="person-firstname"></h3>
                 <p>
                   Our team is working hard and will try to respond to your
                   inquiry or feedback as soon as possible.
