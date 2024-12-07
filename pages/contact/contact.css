@@ -10,9 +10,9 @@
   justify-content: center;
   align-items: center;
 }
+
 .banner-main {
   text-align: center;
-  /* width: 848px; */
   margin: 0 10rem;
   padding: 20px 80px;
   background-color: #ecffe6bf;
@@ -88,6 +88,7 @@
   align-items: center;
   z-index: 1000;
 }
+
 .modal-respond-content {
   position: absolute;
   top: 50%;
