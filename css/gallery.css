@@ -17,6 +17,55 @@
             1px 1px 0 #ffffff;
 }
 
+.image-container img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    transition: bottom 0.3s ease-in-out;
+}
+
+.overlay-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.image-container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.image-container:hover .overlay-text {
+    transform: translateY(0);
+}
+
+.overlay-text {
+    transform: translateY(20px);
+    transition: transform 0.3s ease-in-out;
+}
+
 @media screen and (min-width: 320px) and (max-width: 576px) {
     .smaller-img {
         padding-inline: 50px;
